@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="VisualTest">
+    
+  <test name="ARCCVisualTest">
+    <parameter name="browserName"  value="chrome"/>
+    <parameter name="environment"  value="staging"/>
+    
+    <classes>
+      <class name="com.arc.testcases.LandingPage.ARCLandingPageTest"/>
+     
+    </classes>
+  </test> <!-- ARCVisualTest -->
+</suite> <!-- VisualTest -->
